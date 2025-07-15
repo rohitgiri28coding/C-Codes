@@ -1,4 +1,4 @@
-// Concept of 
+// Concept of malloc and calloc
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -27,7 +27,7 @@ int main()
     // This malloc requests 1 terabyte of dynamic memory,
     // which is unavailable in this case, and so the
     // allocation fails and returns NULL.
-    int* failed_malloc = malloc(100000000000000);
+    int* failed_malloc = malloc(10000000000000000);
     if (failed_malloc == NULL) {
         printf("The allocation failed, the value of "
                "failed_malloc is: %p",
