@@ -3,6 +3,7 @@
         "cmath": "c",
         "complex": "c",
         "cstdlib": "c",
-        "stdio.h": "c"
+        "stdio.h": "c",
+        "PYQ17.C": "cpp"
     }
 }
